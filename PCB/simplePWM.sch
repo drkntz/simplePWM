@@ -334,8 +334,8 @@ $Comp
 L Device:D_Schottky D1
 U 1 1 61D9B5D7
 P 8250 1600
-F 0 "D1" V 8200 1150 50  0000 L CNN
-F 1 "SK510" V 8300 1100 50  0000 L CNN
+F 0 "D1" V 8200 1350 50  0000 L CNN
+F 1 "SK510" V 8300 1250 50  0000 L CNN
 F 2 "Diode_SMD:D_SMC" H 8250 1600 50  0001 C CNN
 F 3 "~" H 8250 1600 50  0001 C CNN
 	1    8250 1600
@@ -971,4 +971,26 @@ Wire Wire Line
 	6300 1950 6300 1100
 Wire Wire Line
 	5600 1950 6300 1950
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61E1F008
+P 5600 7200
+F 0 "H4" H 5500 7154 50  0000 R CNN
+F 1 "MountingHole" H 5500 7245 50  0000 R CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5600 7200 50  0001 C CNN
+F 3 "~" H 5600 7200 50  0001 C CNN
+	1    5600 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61E23A3F
+P 5550 7500
+F 0 "H3" H 5450 7454 50  0000 R CNN
+F 1 "MountingHole" H 5450 7545 50  0000 R CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5550 7500 50  0001 C CNN
+F 3 "~" H 5550 7500 50  0001 C CNN
+	1    5550 7500
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
